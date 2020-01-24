@@ -1,0 +1,7 @@
+DEPENDENCIES
+  dev_env_cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  dev_env_cookbook (0.1.0)

@@ -1,0 +1,51 @@
+{
+  "revision_id": "84593a4ad4f43bfbb9a1ddfe4bff5850c451d37ea1c064fc08a0bc04b5a75e4e",
+  "name": "dev_env_cookbook",
+  "run_list": [
+    "recipe[dev_env_cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "dev_env_cookbook": {
+      "version": "0.1.0",
+      "identifier": "21a5c0f914718a49e2351bdf2269f4aaefc568f7",
+      "dotted_decimal_identifier": "9470922462622090.20796391028630121.269015004309751",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "1827ec45fc561ba7cf00d7a093d7f77a05e7e052",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "dev_env_cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "dev_env_cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}

@@ -24,6 +24,6 @@ Vagrant.configure("2") do |config|
     chef.arguments = "--chef-license accept"
   end
 
-  config.vm.synced_folder "./code", "/home/ubuntu/code"
+  config.vm.synced_folder "./code", "/home/ubuntu/code/"
 
 end
